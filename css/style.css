@@ -1,0 +1,14 @@
+tei-persName {
+  color: red;
+
+}
+tei-ab:before {
+  content: attr(n) ". ";
+
+}
+var CETEIcean = new CETEI()
+CETEIcean.addBehaviors({
+     "tei": {
+       "persName": [ "[" ,  "]" ]
+     }
+   })
