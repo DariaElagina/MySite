@@ -488,8 +488,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
         <body>
-            <div type="edition" corresp="#ms_i5" xml:lang="gez"> <ab>
-                    ነዓ፡ ኢየሱስ፡ ክርስቶስ፡ ተሀቦ፡ ለገበርከ፡ <persName ref="PRS12197Luqās" role="owner">ሉቃስ፡</persName> ወልታ፡ ጽድቅ፡ ዘእምየማን፡ ወዘእምጸጋም። <foreign xml:lang="en">Come, Jesus Christ, give Your slave Luke a shield of
+            <div type="edition" corresp="#ms_i5" xml:lang="gez">
+              <ab n="1">
+                    ነዓ፡ ኢየሱስ፡ ክርስቶስ፡ ተሀቦ፡ ለገበርከ፡ <persName ref="https://betamasaheft.eu/persons/PRS12197Luqas/main" role="owner">ሉቃስ፡</persName> ወልታ፡ ጽድቅ፡ ዘእምየማን፡ ወዘእምጸጋም።
+                  </ab><ab><foreign xml:lang="en">Come, Jesus Christ, give Your slave Luke a shield of
                     the truth at the right and at the left.</foreign>
               </ab> </div>
 
